@@ -13,6 +13,7 @@
 		AE92E949284E6C2C001477B0 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AE92E947284E6C2C001477B0 /* Main.storyboard */; };
 		AE92E94B284E6C2D001477B0 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AE92E94A284E6C2D001477B0 /* Assets.xcassets */; };
 		AE92E94E284E6C2D001477B0 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AE92E94C284E6C2D001477B0 /* LaunchScreen.storyboard */; };
+		AE92E956284E7B24001477B0 /* VoterViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE92E955284E7B24001477B0 /* VoterViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +25,7 @@
 		AE92E94A284E6C2D001477B0 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		AE92E94D284E6C2D001477B0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		AE92E94F284E6C2D001477B0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		AE92E955284E7B24001477B0 /* VoterViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VoterViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -63,6 +65,7 @@
 				AE92E94A284E6C2D001477B0 /* Assets.xcassets */,
 				AE92E94C284E6C2D001477B0 /* LaunchScreen.storyboard */,
 				AE92E94F284E6C2D001477B0 /* Info.plist */,
+				AE92E955284E7B24001477B0 /* VoterViewController.swift */,
 			);
 			path = MultiScreenApp;
 			sourceTree = "<group>";
@@ -141,6 +144,7 @@
 				AE92E946284E6C2C001477B0 /* ViewController.swift in Sources */,
 				AE92E942284E6C2C001477B0 /* AppDelegate.swift in Sources */,
 				AE92E944284E6C2C001477B0 /* SceneDelegate.swift in Sources */,
+				AE92E956284E7B24001477B0 /* VoterViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
