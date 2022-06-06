@@ -35,20 +35,28 @@
                                 <color key="tintColor" systemColor="labelColor"/>
                                 <state key="normal" title="Button"/>
                                 <buttonConfiguration key="configuration" style="plain" title="Submit"/>
+                                <connections>
+                                    <action selector="submitButtonClicked" destination="BYZ-38-t0r" eventType="touchUpInside" id="jC9-WN-k2B"/>
+                                </connections>
                             </button>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                         <color key="backgroundColor" systemColor="systemGrayColor"/>
                     </view>
+                    <connections>
+                        <outlet property="ageTextField" destination="LAx-nw-kVP" id="J7B-99-gWa"/>
+                        <outlet property="nameTextField" destination="TQQ-Hb-3ow" id="sG0-19-8Qk"/>
+                        <outlet property="submitButton" destination="h3p-GC-4x5" id="eEg-rK-LxX"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="28.985507246376812" y="51.5625"/>
         </scene>
-        <!--View Controller-->
+        <!--Voter View Controller-->
         <scene sceneID="ZHi-CQ-N5s">
             <objects>
-                <viewController id="u5q-UB-woN" sceneMemberID="viewController">
+                <viewController storyboardIdentifier="VoterViewController" id="u5q-UB-woN" customClass="VoterViewController" customModule="MultiScreenApp" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="0yM-kk-h8c">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -74,6 +82,9 @@
                                 <color key="tintColor" systemColor="labelColor"/>
                                 <state key="normal" title="Button"/>
                                 <buttonConfiguration key="configuration" style="plain" title="Back"/>
+                                <connections>
+                                    <action selector="backButtonPressed" destination="u5q-UB-woN" eventType="touchUpInside" id="KbP-3v-92f"/>
+                                </connections>
                             </button>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Yes / No ?" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="AUA-tt-0bm">
                                 <rect key="frame" x="214" y="377" width="137" height="48"/>
@@ -89,11 +100,21 @@
                                 <color key="tintColor" systemColor="labelColor"/>
                                 <state key="normal" title="Button"/>
                                 <buttonConfiguration key="configuration" style="plain" title="Is a Voter ?"/>
+                                <connections>
+                                    <action selector="isVoterClicked" destination="u5q-UB-woN" eventType="touchUpInside" id="QoA-42-4Qj"/>
+                                </connections>
                             </button>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="u9b-9M-ggO"/>
                         <color key="backgroundColor" systemColor="systemGrayColor"/>
                     </view>
+                    <connections>
+                        <outlet property="ageLabel" destination="C1w-Fw-O7I" id="WPf-sP-KKS"/>
+                        <outlet property="backButton" destination="Eue-iB-7ep" id="dt5-fS-zjG"/>
+                        <outlet property="isVoterButton" destination="UfQ-9P-e3H" id="nFJ-qI-v5d"/>
+                        <outlet property="nameLabel" destination="pNq-gy-K8o" id="foJ-Zi-KhI"/>
+                        <outlet property="yesNoLabel" destination="AUA-tt-0bm" id="FfI-vT-Zib"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="FHr-Ug-Qio" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
